@@ -1,1 +1,2 @@
-alert("it's alive");
+import React from 'react';
+import { render } from 'react-dom';
