@@ -35,11 +35,11 @@ class List extends React.Component {
     }
   });
 
-  shouldComponentUpdate(list1Items, list2Items){
-      if (event.code !== list1Items) {
+  shouldComponentUpdate(Digit1, Digit2){
+      if (event.code !== Digit1) {
         return true;
       }
-      if (event.code !== list2Items) {
+      if (event.code !== Digit2) {
         return true;
       } else {
         return false;
