@@ -35,6 +35,8 @@ class List extends React.Component {
     }
   });
 
+  // My solution
+
   shouldComponentUpdate(Digit1, Digit2){
       if (event.code !== Digit1) {
         return true;
