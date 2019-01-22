@@ -35,4 +35,15 @@ class List extends React.Component {
     }
   });
 
+  shouldComponentUpdate(list1Items, list2Items){
+      if (event.code !== list1Items) {
+        return true;
+      }
+      if (event.code !== list2Items) {
+        return true;
+      } else {
+        return false;
+      }
+  }
+
   renderItems(list1Items);
